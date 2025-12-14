@@ -1,2 +1,9 @@
-# areal-hr_ext-test
-HR Management System for multiple organizations
+# Areal HR Management System
+
+Проект для управления кадрами в нескольких организациях.
+
+## Первый запуск
+
+1. Установите Docker
+2. Выполните: `docker-compose up -d`
+3. База данных будет доступна на localhost:5432
