@@ -1,0 +1,33 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate:create": "npx node-pg-migrate create --verbose",
+    "migrate:up": "npx node-pg-migrate up --verbose",
+    "migrate:down": "npx node-pg-migrate down --verbose",
+    "build": "nest build",
+    "start:dev": "nest start --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/mapped-types": "*",
+    "@nestjs/platform-express": "^11.1.10",
+    "@nestjs/typeorm": "^11.0.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.3",
+    "dotenv": "^17.2.3",
+    "node-pg-migrate": "^8.0.4",
+    "pg": "^8.16.3",
+    "typeorm": "^0.3.28"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@types/pg": "^8.16.0",
+    "typescript": "^5.9.3"
+  }
+}

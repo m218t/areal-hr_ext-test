@@ -1,0 +1,11 @@
+{
+  "migrations-table": "migrations",
+  "migrations-directory": "migrations",
+  "driver": "pg",
+  "host": "localhost",
+  "port": 5432,
+  "database": "areal_hr",
+  "username": "postgres",
+  "password": "postgres",
+  "ssl": false
+}
